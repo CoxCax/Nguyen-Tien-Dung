@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/img_3"
+        android:title="Home" />
+    <item
+        android:id="@+id/yours_activities_menu"
+        android:icon="@drawable/img_4"
+        android:title="Yours Activities" />
+    <item
+        android:id="@+id/stats_for_week_menu"
+        android:icon="@drawable/img_5"
+        android:title="Stats For Week" />
+    <item
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/img_6"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/h"
+        android:id="@+id/ivIcon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in your account"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email                                                       "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="#D6E6EF"
+        android:hint="   ex: jon.smith@email.com"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtEmail"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password                                               "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="#D6E6EF"
+        android:hint="   *********"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtPass"/>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius_10dp"
+        android:layout_marginTop="36dp"
+        android:text="SIGN IN"
+        android:id="@+id/btnSignIn"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or sign in with"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_8"
+            android:layout_marginTop="14dp"
+            android:id="@+id/btnGG"
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_9"
+            android:layout_margin="14dp"
+            android:id="@+id/btnFB"
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_10"
+            android:layout_marginTop="14dp"
+            android:id="@+id/btnX"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an account?    "
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SIGN UP"
+            android:textStyle="bold"
+            android:textColor="#00B140"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvSignUp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

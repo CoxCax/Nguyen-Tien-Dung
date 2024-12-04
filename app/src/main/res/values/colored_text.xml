@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="colored_text">
+        I understood the <font color='#00B140'>terms &amp; policy.</font>
+    </string>
+</resources>
